@@ -1,0 +1,13 @@
+file_format: "1"
+id: tulipkeys
+name: TulipKeys
+type: shield
+url: https://github.com/kata0510/Lily58
+requires:
+  - nice_nano
+features:
+  - keys
+  - studio
+siblings:
+  - tulipkeys_left
+  - tulipkeys_right

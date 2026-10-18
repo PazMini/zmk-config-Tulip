@@ -18,3 +18,14 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+  ### LILY58 START ###
+ include: # nice!oled lily58
+    - board: nice_nano_v2
+      shield: tulipkeys_left
+      cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"TulipKeys\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+      artifact-name: tulipkeys_left
+      snippet: studio-rpc-usb-uart
+    - board: nice_nano_v2
+      shield: tulipkeys_right
+      cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+      artifact-name: tulipkeys_right
